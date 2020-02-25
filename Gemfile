@@ -4,5 +4,5 @@ gem "github-pages", group: :jekyll_plugins
 
 group :test do
   gem "html-proofer"
-  gem "rake"
+  gem "rake", ">= 12.3.3"
 end
